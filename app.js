@@ -44,7 +44,7 @@ const http = require("http");
 
 bot.login(process.env.TOKEN);
 
-const prefix = "!!";
+const prefix = "/";
 
     bot.on('ready', () => {
         console.log('bot has launched..');
