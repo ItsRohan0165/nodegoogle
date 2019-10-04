@@ -49,7 +49,7 @@ const prefix = "/";
     bot.on('ready', () => {
         console.log('bot has launched..');
         bot.user.setStatus('online');
-        bot.user.setActivity('in your mom\'s vagina');
+       
     });
 
     // bot.on("presenceUpdate", (oldMember, newMember)=> {
